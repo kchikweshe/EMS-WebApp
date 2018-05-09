@@ -1,0 +1,16 @@
+Index: app/home/views.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/home/views.py	(date 1525874721000)
++++ app/home/views.py	(date 1525877025568)
+@@ -9,7 +9,7 @@
+     """
+     Render the homepage template on the / route
+     """
+-    return render_template('home/index.html', title="Welcome")  # d
++    return render_template('home/index.html', title="Welcome")  # dn
+ 
+ 
+ @home.route('/dashboard')
