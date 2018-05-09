@@ -9,7 +9,7 @@ def homepage():
     """
     Render the homepage template on the / route
     """
-    return render_template('home/index.html', title="Welcome")
+    return render_template('home/index.html', title="Welcome")  # d
 
 
 @home.route('/dashboard')
